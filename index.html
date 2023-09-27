@@ -12,6 +12,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
+    
+
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
@@ -27,6 +29,16 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        /* Estilos para el botón flotante */
+        .floating-button {
+            position: fixed;
+            bottom: 30px; /* Distancia desde la parte inferior */
+            right: 30px; /* Distancia desde la parte derecha */
+            z-index: 11;
+            animation: action 1s infinite alternate;
+        }
+    </style>
 </head>
 
 <body>
@@ -34,55 +46,22 @@
     <div class="container-fluid bg-primary py-3">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="col-md-10 text-center text-lg-left mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center">
                         <!--<a class="text-white pr-3" href=""></a>-->
-                        <span class="text-white px-3 text-nowrap">ARANGUREN 1160</span>
+                        <span class="text-white px-3 text-nowrap">CABALLITO</span>
                         <span class="text-white">|</span>
-                        <span class="text-white px-3">CABALLITO</span>
+                        <span class="text-white px-3">ALMAGRO</span>
                         <!--<span class="text-white">|</span>
                         <span class="text-white px-3">CABA</span>-->
                     </div>
                 </div>
-                <!--
-                        ----------------------------------------------------------------
-                
-                https://wa.me/5491167358914?text=hola%20mundo!
 
-
-                
-                    ----------------------------------------------------------------
-                -->
-                <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="col-md-2 text-center text-lg-left mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center">
-                        <a class="text-white pr-3" href="https://wa.me/5491167358914?text=hola%20mundo!" target="_blank"> CHATEA WHATSAPP +54 9 11 2638-3710</a>
-                        <!--<span class="text-white">|</span>
-                        <a class="text-white px-3" href="">CABALLITO</a>
-                        <span class="text-white">|</span>
-                        <a class="text-white pl-3" href="">CABA</a>-->
-                    </div>
+                        <a class="text-white px-3" href="https://wa.me/5491167358914?text=hola%20mundo!" target="_blank"> <i class="bi bi-telephone-plus"> </i>  11 6735-8914</a>
+                     </div>
                 </div>
-                <!--
-                <div class="col-md-6 text-center text-lg-right">
-                    <div class="d-inline-flex align-items-center">
-                        <a class="text-white px-3" href="">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a class="text-white px-3" href="">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a class="text-white px-3" href="">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a class="text-white px-3" href="">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a class="text-white pl-3" href="">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </div>
-                </div>
-                -->
             </div>
         </div>
     </div>
@@ -94,7 +73,8 @@
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 pl-3 pl-lg-5">
                 <a href="" class="navbar-brand">
-                    <h1 class="m-0 text-secondary"><span class="text-primary">TEM</span>PO</h1>
+
+                    <h1 class="m-0 text-secondary text-center"><span class="text-primary">TEM</span>PO</h1>
                     <span class="text-primary">Alquiler Temporario</span>
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -102,17 +82,17 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
-                        <a href="pricing.html" class="nav-item nav-link">Pricing</a>
-                        <div class="nav-item dropdown">
+                        <a href="index.html" class="nav-item nav-link active">Aranguren</a>
+                        <a href="about.html" class="nav-item nav-link">Calasanz</a>
+                        <a href="service.html" class="nav-item nav-link">33 Orientales</a>
+                        <a href="pricing.html" class="nav-item nav-link">Precios</a>
+                        <!--<div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu border-0 rounded-0 m-0">
                                 <a href="blog.html" class="dropdown-item">Blog Grid</a>
                                 <a href="single.html" class="dropdown-item">Blog Detail</a>
                             </div>
-                        </div>
+                        </div>-->
                         <a href="contact.html" class="nav-item nav-link">Contacto</a>
                     </div>
                 </div>
@@ -270,8 +250,8 @@
                         <i class="fa fa-2x fa-map-marker-alt text-white m-0 mr-3"></i>
                         <div class="d-flex flex-column">
                             <a class="btn" href="#" role="button">    
-                                <h5 class="text-white font-weight-medium">Calazans 345</h5>
-                                <p class="m-0 text-white">Almagro, Capital Federal</p>
+                                <h5 class="text-white font-weight-medium">CALASANZ 770</h5>
+                                <p class="m-0 text-white">Caballito, Capital Federal</p>
                             </a>
                         </div>
                     </div>
@@ -738,7 +718,7 @@
     <!-- Footer Start -->
     <div class="container-fluid bg-primary text-white mt-5 pt-5 px-sm-3 px-md-5">
         <div class="row pt-5">
-            <div class="col-lg-4 col-md-6 mb-5">
+            <div class="col-lg-8 col-md-6 mb-5">
                 <!--<a href=""><h1 class="text-secondary mb-3"><span class="text-white">ALQUILER</span></h1></a>
                 <a href=""><h1 class="text-secondary mb-3"><span>TEMPO</span><span class="text-white">RARIO</span></h1></a>-->
                 <a href="">
@@ -752,13 +732,14 @@
                     <a class="btn btn-outline-light rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
-            <div class="col-lg-5 col-md-6 mb-5">
+            <div class="col-lg-4 col-md-6 mb-5">
                 <!--<h4 class="text-white mb-4">Get In Touch</h4>
                 <p>Dolor clita stet nonumy clita diam vero, et et ipsum diam labore</p>-->
+                <p><i class="fa"></i>Ciudad Autonoma de Buenos Aires, Argentina.</p>
                 <p><i class="fa fa-map-marker-alt mr-2"></i>ARANGUREN 1160, CABALLITO NORTE</p>
                 <p><i class="fa fa-map-marker-alt mr-2"></i>CALAZANS 352, CABALLITO CENTRO</p>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>ARANGUREN 1160, ALMAGRO NORTE</p>
-                <p><i class="fa"></i>Ciudad Autonoma de Buenos Aires, Argentina.</p>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>33 ORIENTALES 750, ALMAGRO NORTE</p>
+                
                 <p><i class="fa fa-phone-alt mr-2"></i>+54 9 011 6735-8914</p>
                 <!--<p><i class="fa fa-envelope mr-2"></i>info@example.com</p>-->
             </div>
@@ -800,8 +781,21 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    <!--<div class="container">-->
 
+        <a href="https://wa.me/5491167358914?text=hola%20mundo!" target="_blank" class="btn btn-lg btn-success floating-button"><i class="bi bi-telephone-plus"> </i>         11 6735-8914</a>
+    <!--</div>-->
+       <!-- <a href="https://wa.me/5491167358914?text=hola%20mundo!" target="_blank" role="button" class="btn btn-lg btn-success back-to-top" >WhatsAPP</a>-->
+       <!-- <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>-->
+    
+   
+   <!-- <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>-->
+   
+   
+   <!-- Agrega los scripts de Bootstrap (jQuery y Popper.js son necesarios) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -820,3 +814,7 @@
 </body>
 
 </html>
+
+
+
+<
